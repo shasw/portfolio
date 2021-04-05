@@ -1,38 +1,125 @@
-.App {
+.content {
+  padding: 20px;
+  background-color: #2ecc71;
+  color: #f4f4f4;
+  font-size: 25px;
+}
+.skil {
+  padding: 30px;
+  border-bottom: 2px solid #f4f4f4;
+}
+.progress-bar {
+  width: 100%;
+  height: 30px;
+  background-color: blue;
+  font-size: 20px;
   text-align: center;
+  padding-top: 5px;
+  border-radius:8px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.progress-bar-l {
+  width: 90%;
+  height: 30px;
+  background-color: blue;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 5px;
+  border-radius:8px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.content2 {
+  background-color: #e67e22;
+  color: #f4f4f4;
+  /*display: none;
+  overflow: auto;*/
+  font-size: 20px;
+  padding: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.boxes {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.box {
+  border: 2px solid #f4f4f4;
+  padding: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box h3 {
+  text-transform: uppercase;
+  border-bottom: 1px solid #f4f4f4;
+  text-align: center;
+}
+.box p {
+  padding: 20px;
+  border-bottom: 1px solid #f4f4f4;
+  text-align: center;
+}
+.res-head {
+  padding: 20px;
+}
+.content3 {
+  background-color:#3498db ;
+  /*display: none;*/
+  color: #f4f4f4;
+  padding: 20px;
+}
+.content3 h2 {
+  padding: 20px;
+}
+.content4 {
+  background-color: #f1c40f;
+  /*display: none;*/
+  color: #f4f4f4;
+  padding: 20px;
+  text-align:center;
+}
+.content4 h2 {
+  margin-bottom: 10px;
+}
+.info {
+  border: 2px solid #f4f4f4;
+  font-size: 20px;
+  padding: 20px;
+  font-weight: 600;
+}
+a {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+.container {
+  margin: auto;
+  max-width: 1000px;
+}
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.navitem {
+  width: 25%;
+}
+.tab {
+  color:#f4f4f4;
+  padding:40px;
+  text-align: center;
+  display: block;
+  flex: 2;
+  font-size: 25px;
+  cursor: pointer;
+}
+.green {
+  background-color:#2ecc71 ;
+}
+.orange {
+  background-color: #e67e22 ;
+}
+.blue {
+  background-color: #3498db ;
+  
+}
+.yellow {
+  background-color: #f1c40f ;  
 }
