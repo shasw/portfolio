@@ -12,7 +12,17 @@
     color: #f4f4f4;
     border: 2px solid black;
     height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 460px;
+}
+.project_title {
+    position: relative;
+    text-align: center;
+    bottom: 40%;
+    color: #c0392b;
+}
+@media screen and (max-width: 960px){
+    .projects {
+        display: flex;
+        flex-direction: column;
+    }
 }
