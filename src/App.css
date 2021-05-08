@@ -123,3 +123,7 @@ a {
 .yellow {
   background-color: #f1c40f ;  
 }
+
+.email-link {
+    text-decoration: underline;
+}
