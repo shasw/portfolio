@@ -13,7 +13,7 @@ import {
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/portfolio">
       <div className="container">
         <nav>
           <Header />
