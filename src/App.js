@@ -13,7 +13,7 @@ import {
 
 export default function App() {
   return (
-    <Router basename="/portfolio">
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="container">
         <nav>
           <Header />
